@@ -66,7 +66,6 @@
               <span>Settings</span>
               </a>
             <ul class="sub">
-              <li><a <?php if($page=='general'){ ?>style="color:#4ecdc4;"<?php }?> href="general.php">General</a></li>
               <li><a <?php if($page=='company' || $page=='companyEdit'){ ?>style="color:#4ecdc4;"<?php }?> href="company.php">Company</a></li>
               <li><a <?php if($page=='service' || $page=='serviceEdit'){ ?>style="color:#4ecdc4;"<?php }?> href="service.php">Service</a></li>
               <li><a <?php if($page=='user' || $page=='addUser' || $page=='userEdit'){ ?>style="color:#4ecdc4;"<?php }?> href="user.php">User</a></li>
